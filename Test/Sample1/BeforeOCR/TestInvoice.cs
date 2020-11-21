@@ -3,7 +3,7 @@ using PracticeOpenClosedPrinciple.Sample1.BeforeOCP;
 
 namespace Test.Sample1
 {
-    public class TestInvoiceBeforeOCP
+    public class TestInvoice
     {
         public class GetInvoiceDiscountMethod
         {
