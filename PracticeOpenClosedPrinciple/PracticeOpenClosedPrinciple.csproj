@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Sample3\BeforeOCP\" />
+    <Folder Include="Sample3\AfterOCP\" />
+  </ItemGroup>
+
 </Project>

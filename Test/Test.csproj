@@ -17,4 +17,9 @@
     <ProjectReference Include="..\PracticeOpenClosedPrinciple\PracticeOpenClosedPrinciple.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Sample3\BeforeOCP\" />
+    <Folder Include="Sample3\AfterOCP\" />
+  </ItemGroup>
+
 </Project>
