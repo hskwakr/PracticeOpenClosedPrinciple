@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Sample3\BeforeOCP\" />
     <Folder Include="Sample3\AfterOCP\" />
   </ItemGroup>
 
