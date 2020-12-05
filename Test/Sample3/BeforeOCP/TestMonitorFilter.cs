@@ -1,7 +1,7 @@
 ﻿using Xunit;
 using PracticeOpenClosedPrinciple.Sample3.BeforeOCP;
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
 
 namespace Test.Sample3.BeforeOCP
 {
@@ -28,8 +28,8 @@ namespace Test.Sample3.BeforeOCP
                 
                 List<ComputerMonitor> actual = filter.FilfterByType(data, type);
                 
-                Predicate<ComputerMonitor> filterType = (x) => x.Type == type;
-                Assert.Contains<ComputerMonitor>(actual, filterType);
+                Predicate<ComputerMonitor> filterByType = (x) => x.Type == type;
+                Assert.Contains<ComputerMonitor>(actual, filterByType);
             }
         }
     }
